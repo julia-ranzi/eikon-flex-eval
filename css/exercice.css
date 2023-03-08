@@ -46,8 +46,7 @@
 /* 5. exercice-5 */
 .exercice-5 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -56,8 +55,7 @@
 /* 6. exercice-6 */
 .exercice-6 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-flow: row wrap-reverse;
   align-content: space-between;
 }
 
@@ -88,8 +86,7 @@
 /* 7. exercice-7 */
 .exercice-7 .container {
   display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap-reverse;
+  flex-flow: column-reverse wrap-reverse;
   justify-content: space-between;
   align-content: center;
 }
@@ -97,9 +94,8 @@
 /* 8. exercice-8 */
 .exercice-8 .container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
   align-content: center;
 }
