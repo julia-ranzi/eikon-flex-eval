@@ -129,7 +129,9 @@
 /* 10. exercice-10 */
 .exercice-10 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.exercice-10 .element-red {
+  margin: auto;
 }
 
