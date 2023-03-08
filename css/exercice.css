@@ -116,9 +116,14 @@
 /* 9. exercice-9 */
 .exercice-9 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.exercice-9 .element-blue .element-yellow {
+  align-self: flex-end;
 }
 
 /* 10. exercice-10 */
